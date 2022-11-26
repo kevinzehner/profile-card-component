@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+
+  /* background doesnt look like right */
+  /* background-image: url(../images/bg-pattern-top.svg);
+  background-size: contain; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #fff;
+  padding-bottom: 3rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile-picture {
+  border-radius: 500px;
+  position: absolute;
+  top: 25%;
+  left: 37%;
+}
+
+.name-age {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: hsl(229, 23%, 23%);
+}
+
+.age {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: hsl(227, 10%, 46%);
+}
+
+.location {
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: hsl(227, 10%, 46%);
+  padding-bottom: 3rem;
+  border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+
+.profile-info {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: hsl(229, 23%, 23%);
+}
+
+.profile-stats {
+  margin-top: 2rem;
+}
+
+.followers,
+.likes,
+.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.profile-text {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-size: 1rem;
+}
